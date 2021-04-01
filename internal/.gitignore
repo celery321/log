@@ -1,0 +1,51 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_obj
+_test
+.idea
+
+# Architecture specific extensions/prefixes
+*.[568vq]
+[568vq].out
+
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+
+_testmain.go
+
+*.exe
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Mac
+.DS_Store
+
+# bin
+go.sum
+cmd/main
+bin/*
+
+# config
+app/deployment/cmd/*.toml
+
+# operations config
+app/operations/cmd/*.toml
+
+# tar
+deployment_0.1.0.tar
+log-manager_0.1.0.tar
+operations_0.1.0.tar
+kops-api_0.1.0.tar
+dist.tar.gz
+kops-x86_64-0.1.0.tar.gz
+
